@@ -1,6 +1,6 @@
-=== Plugin Name ===
+=== BC Imperial Date ===
 Contributors: ctdc
-Tags: imperial date, date, ctdc
+Tags: imperial date, date, ctdc, date format, great rift, 40k, 40000, warhammer
 Requires at least: 4.6
 Tested up to: 5.1
 Stable tag: 4.3
