@@ -2,7 +2,7 @@
 /**
  * Plugin Name: BC Imperial Date
  * Plugin URI:  https://github.com/bug-c/bc-imperial-date
- * Description: This plugin allows you to customize your wordpress instalation to display The Imperial Date format instead of the wordpress default date formats. Date and time format options can be configured from general settings.
+ * Description: This plugin allows you to customize your wordpress to use Warhammer 40k pre-great rift Imperial Dating System instead of the default wordpress date. Date and time format options can be configured from Settings -> General screen.
  * Version:     1.0.0
  * Author: 		Bugariu Catalin
  * Author URI:  https://www.bugariu-catalin.com
