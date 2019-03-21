@@ -51,7 +51,6 @@ Yes.
 
 == Screenshots ==
 1. Settings
-2. Post date example
 
 == Changelog ==
 
