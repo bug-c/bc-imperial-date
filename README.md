@@ -35,11 +35,11 @@ Getting Started
 
 * Can the plugin calculate the date using the post-great rift new style?
 
-... Post great rift (new style) is not supported yet. Only the pre-great rift (old-style) is supported at the moment.
+   Post great rift (new style) is not supported yet. Only the pre-great rift (old-style) is supported at the moment.
 
 * Is the plugin free?
 
-... Yes.
+   Yes.
 
 ## Screenshots
 ![Settings](/screenshot-1.jpg?raw=true "Settings")
@@ -53,4 +53,4 @@ Getting Started
 
 ## License
 
-This project is licensed under the GPLv3 License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the GPLv3 License - see the [LICENSE](LICENSE) file for details.
