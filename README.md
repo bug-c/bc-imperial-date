@@ -33,21 +33,21 @@ Getting Started
 
 ## Frequently Asked Questions
 
-* Can the plugin calculate the date using the post-great rift new style? =
+* Can the plugin calculate the date using the post-great rift new style?
 
-Post great rift (new style) is not supported yet. Only the pre-great rift (old-style) is supported at the moment.
+... Post great rift (new style) is not supported yet. Only the pre-great rift (old-style) is supported at the moment.
 
 * Is the plugin free?
 
-Yes.
+... Yes.
 
 ## Screenshots
-1. ![Settings](/screenshot-1.jpg?raw=true "Settings")
+![Settings](/screenshot-1.jpg?raw=true "Settings")
 
 
 ## Changelog
 
-## 1.0
+### 1.0
 * Calculate and display the old-style imperial date.
 * Add option to customize the imperial date format from general settings.
 
