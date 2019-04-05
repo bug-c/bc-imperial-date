@@ -17,7 +17,7 @@ if (!defined('ABSPATH')) {
 
 class BC_Imperial_Date {
 
-    CONST PREFIX = 'bc_imperial_date_';
+    CONST self::PREFIX = 'bc_imperial_date_';
     CONST MAKR_CONSTANT = 0.11407955263862231501532129004257;
 
     /**
@@ -61,11 +61,11 @@ class BC_Imperial_Date {
     }
 
     public function getDefaultCheckNumber() {
-        return get_option(PREFIX . 'check_number', '0');
+        return get_option(self::PREFIX . 'check_number', '0');
     }
 
     public function selectCheckNumber() {
-        $value = get_option(PREFIX . 'check_number', '0');
+        $value = get_option(self::PREFIX . 'check_number', '0');
 
         $check_numbers = [
             'Location Based' => [
@@ -86,7 +86,7 @@ class BC_Imperial_Date {
             ],
         ];
 
-        echo '<select tid="' . PREFIX . 'check_number' . '" name="' . PREFIX . 'check_number' . '">';
+        echo '<select tid="' . self::PREFIX . 'check_number' . '" name="' . self::PREFIX . 'check_number' . '">';
         foreach ($check_numbers as $group => $options) {
             echo '<optgroup label="' . $group . '">';
             foreach ($options as $digit => $label) {
@@ -99,22 +99,22 @@ class BC_Imperial_Date {
     }
 
     public function getDefaultUseDat() {
-        return get_option(PREFIX . 'use_dot', '1');
+        return get_option(self::PREFIX . 'use_dot', '1');
     }
 
     public function selectUseDot() {
-        $checked = get_option(PREFIX . 'use_dot', '1') == 1 ? 'checked' : '';
+        $checked = get_option(self::PREFIX . 'use_dot', '1') == 1 ? 'checked' : '';
 
 
-        echo '<input type="checkbox" id="' . PREFIX . 'use_dot' . '" name="' . PREFIX . 'use_dot' . '" value="1" ' . $checked . ' >';
+        echo '<input type="checkbox" id="' . self::PREFIX . 'use_dot' . '" name="' . self::PREFIX . 'use_dot' . '" value="1" ' . $checked . ' >';
     }
 
     public function addConfigOptions() {
-        register_setting('general', PREFIX . 'check_number', 'esc_attr');
-        register_setting('general', PREFIX . 'use_dot', 'esc_attr');
+        register_setting('general', self::PREFIX . 'check_number', 'esc_attr');
+        register_setting('general', self::PREFIX . 'use_dot', 'esc_attr');
 
-        add_settings_field(PREFIX . 'check_number', '<label for="' . PREFIX . 'check_number">' . __('Imperial Date Check Number', 'check_number') . '</label>', [$this, 'selectCheckNumber'], 'general');
-        add_settings_field(PREFIX . 'use_dot', '<label for="' . PREFIX . 'use_dot">' . __('Imperial Date Use Dot', 'use_dot') . '</label>', [$this, 'selectUseDot'], 'general');
+        add_settings_field(self::PREFIX . 'check_number', '<label for="' . self::PREFIX . 'check_number">' . __('Imperial Date Check Number', 'check_number') . '</label>', [$this, 'selectCheckNumber'], 'general');
+        add_settings_field(self::PREFIX . 'use_dot', '<label for="' . self::PREFIX . 'use_dot">' . __('Imperial Date Use Dot', 'use_dot') . '</label>', [$this, 'selectUseDot'], 'general');
     }
 
     /**
