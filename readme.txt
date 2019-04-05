@@ -3,7 +3,7 @@ Contributors: ctdc
 Tags: imperial date, date, ctdc, date format, great rift, 40k, 40000, warhammer
 Requires at least: 4.6
 Tested up to: 5.1
-Stable tag: 4.3
+Stable tag: 1.0.1
 Requires PHP: 5.2.4
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -57,3 +57,6 @@ Yes.
 = 1.0 =
 * Calculate and display the old-style imperial date.
 * Add option to customize the imperial date format from general settings.
+
+= 1.0.1 =
+* Fix settings prefix

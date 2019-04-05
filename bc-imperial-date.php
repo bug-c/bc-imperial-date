@@ -3,7 +3,7 @@
  * Plugin Name: BC Imperial Date
  * Plugin URI:  https://github.com/bug-c/bc-imperial-date
  * Description: This plugin allows you to customize your wordpress to use Warhammer 40k pre-great rift Imperial Dating System instead of the default wordpress date. Date and time format options can be configured from Settings -> General screen.
- * Version:     1.0.0
+ * Version:     1.0.1
  * Author: 		Bugariu Catalin
  * Author URI:  https://www.bugariu-catalin.com
  * License:     GPL3
@@ -17,7 +17,7 @@ if (!defined('ABSPATH')) {
 
 class BC_Imperial_Date {
 
-    CONST self::PREFIX = 'bc_imperial_date_';
+    CONST PREFIX = 'bc_imperial_date_';
     CONST MAKR_CONSTANT = 0.11407955263862231501532129004257;
 
     /**

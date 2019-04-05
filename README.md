@@ -47,9 +47,13 @@ Getting Started
 
 ## Changelog
 
+###  1.0.1
+* Fix settings prefix
+
 ### 1.0
 * Calculate and display the old-style imperial date.
 * Add option to customize the imperial date format from general settings.
+
 
 ## License
 
